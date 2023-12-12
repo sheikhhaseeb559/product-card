@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: hsl(30, 38%, 92%);
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .container {
+        padding: 0%;
+        width: 350px;
+        height: 750px;
+        background-color: white;
+        position: absolute;
+        left: 30px;
+        top: 90px;
+        border-radius: 10px;
+    }
+    .imgclass{
+        padding: 0;
+        width: 100%;
+        height: 270px;
+    }
+    #img{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(images/image-product-mobile.jpg);
+        height: 100%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .container p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: hsl(228, 12%, 48%);
+        line-height: 30px;
+    }
+    .container h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #price{
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+    }
+    #price2{
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        top: -55px;
+        left: 150px;
+    }
+    .container button{
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        border-style: none;
+        width: 300px;
+        height: 50px;
+        font-size: 18px;
+        position: relative;
+        left: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .container svg{
+        position: relative;
+        left: -5px;
+        top: 1px;
+    }
+}
+
+@media only screen and  (min-width:481px){
+    body {
+        background-color: hsl(30, 38%, 92%);
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .container {
+        padding: 0%;
+        width: 700px;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        left: 300px;
+        top: 90px;
+        border-radius: 10px;
+    }
+    
+    .imgclass{
+        
+        padding: 0;
+        height: 400px;
+        width: 350px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #img{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(images/image-product-desktop.jpg);
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    .container p{
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        position: relative;
+        left: 380px;
+        bottom: 380px;
+        margin-left: 1px;
+        margin-right: 400px;
+    }
+    .container h1{
+        font-family: 'Fraunces', serif;
+        position: relative;
+        left: 380px;
+        bottom: 380px;
+        margin-left: 1px;
+        margin-right: 400px;
+    }
+    #price{
+        color: hsl(158, 36%, 37%);
+    }
+    #price2{
+        position: relative;
+        bottom: 430px;
+        left: 530px;
+    }
+    .container button{
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        border-style: none;
+        width: 300px;
+        height: 50px;
+        font-size: 18px;
+        position: relative;
+        left: 370px;
+        bottom: 410px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .container svg{
+        position: relative;
+        left: -10px;
+        top: 1px;
+    }
+}
